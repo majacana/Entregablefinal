@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #caf3f3;
+    margin: 400;
+    padding: 100;
+}
+
+
+header {
+    background-color: #0077b3;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px;
+    width: 100%;
+}
+
+
+nav ul {
+    background-color: #0077b3;
+    list-style-type: none;
+    padding: 20px;
+    margin: 10px;
+    padding-right: 300px;
+}
+
+
+nav ul li {
+    display: inline-table;
+    margin-right: 10px;
+    position: relative;
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+nav ul li a:hover {
+    color: #ff9900;
+}
+
+
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e6f7ff;
+    border: 1px solid #b3e0ff;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #0077b3;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+h1 {
+    font-size: 36px;
+    color: #0077b3;
+}
+
+
+h2 {
+    font-size: 24px;
+    color: #0077b3;
+}
+
+
+main a {
+    color: #0077b3;
+}
+
+
+main a:hover {
+    text-decoration: underline;
+}
+
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+
+.carousel {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    animation: change-slide 10s linear infinite;
+}
+
+
+.carousel-slides {
+    display: flex;
+    width: 300%;
+}
+
+
+.carousel-slide {
+    flex: 1;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: change-slide 20s linear infinite;
+}
+
+
+.carousel img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+@keyframes change-slide {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    33.33% {
+        transform: translateX(100%);
+    }
+    66.66% {
+        transform: translateX(-200%);
+    }
+}
+
+
+.final
+{
+    border: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.final:hover
+{
+    color: #ff9900;
+}
+

@@ -1,0 +1,54 @@
+body {
+    background-image: url('https://actualidad.udla.cl/wp-content/uploads/sites/61/2020/07/Escuela-de-Trabajo-Social-convoca-a-destacados-actores-sociales-a-reflexionar-sobre-los-Derechos-Humanos-de-los-migrantes-en-tiempos-de-pandemia-806x538.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: "Cursive", cursive;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #003366;
+    background-color: rgba(255, 255, 255, 0.9);
+    filter: blur(0.5px);
+}
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #0055b3;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+h1 {
+    color: #0077cc;
+    font-size: 36px;
+    font-family: "Brush Script MT", cursive;
+}
+
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+
+
+p::before {
+    content: "“";
+    color: #003366;
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+
+p::after {
+    content: "”";
+    color: #003366;
+    font-size: 40px;
+    margin-left: 10px;
+}}
+
